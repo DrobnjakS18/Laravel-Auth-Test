@@ -64,6 +64,9 @@
         </style>
     </head>
     <body>
+{{--    @if(Auth::check())--}}
+{{--        {{dd(Auth::id())}}--}}
+{{--    @endif--}}
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
